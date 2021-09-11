@@ -1,0 +1,323 @@
+ /*  Mobile & Tablet */
+ @media (max-width: 63.9375em) {
+
+    .app {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .container__introduce {
+        border: 1px solid #ccc;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        margin: 0 12px;
+        margin: 0 12px 20px 12px;
+    }
+
+    .container__div {
+        border: none;
+        box-shadow: none;
+        overflow-x: unset;
+    }
+
+    .container__trademark-item {
+        font-size: 1.8rem;
+    }
+
+    .container__trademark-list {
+        font-size: 1.8rem;
+    }
+
+    .container__trademark {
+        width: 350px;
+    }
+
+    .container__trademark--fix {
+        width: 250px;
+    }
+
+    .collection__container--ap {
+        margin-bottom: 50px;
+        height: 800px;
+        overflow-y: auto;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+        overflow-x: hidden;
+    }
+
+    .collection__container--ap::-webkit-scrollbar {
+        display: none;
+    }
+
+    .collection__shoe {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .collection__shoe--name {
+        font-size: 1.8rem;
+    }
+
+    .collection__shoe--prices {
+        justify-content: center;
+        font-size: 1.6rem;
+    }
+
+    .brands__five--item {
+        padding: 10px 20px;
+    }
+
+    .brands__five--link::before {
+        height: 10%;
+    }
+
+    .container__cooperate--img {
+        width: 390px;
+    }
+
+    .secleter__cover--ipad-manager {
+        display: none;
+    }
+
+    .container__shoes--img {
+        height: 400px;
+    }
+
+    .show__room--system {
+        
+    transform: translateX(-30%);
+    }
+
+    .active {
+        width: 100%;
+        border-top-left-radius: 0;
+        z-index: 9;
+    }
+
+    .active__secleter {
+        padding: 15px 40px;
+    }
+
+    .footer-app {
+        margin-bottom: 10rem;
+    }
+
+    .header__search-natural--find {
+        width: 80%;
+        left: 10%;
+    }
+
+    .header__add {
+        right: 10%;
+    }
+
+}
+
+/* Tablet: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    .container__product--list {
+        height: 40%;
+    }
+
+    .container__product--list-link {
+        height: 20%;
+    }
+
+    .container__introduce--ipad {
+        display: block;
+        overflow: hidden;
+    }
+
+    .active__box {
+        font-size: 3rem;
+        padding-top: 50%;
+        font-weight: 800;
+    }
+
+}
+
+/* Mobile: max-width < 739px */
+@media only screen and (max-width: 46.1875em) {
+
+    .app {
+        overflow: hidden;
+    }
+
+    .header__trademark--img {
+        padding: 10px 8px;
+    }
+
+    .header__logo {
+        width: 50%;
+    }
+
+    .container-app {
+        margin: 0 12px;
+    }
+
+    .container-highlights {
+        margin: 0 12px 60px 12px;
+    }
+
+    .container-prominent--ipad {
+        margin: 0 12px 30px 12px;
+    }
+
+    .container__advertisement-text {
+        display: none;
+    }
+
+    .container__introduce {
+        overflow-x: auto;
+        margin-top: 20px;
+    }
+
+    .collection__container--ap {
+        margin: 0 12px 50px 12px;
+    }
+
+    .collection__suggestion--many {
+        margin-right: 8px;
+    }
+
+    .brands__five--link {
+        padding: 5px 4px;
+        font-size: 1.3rem;
+    }
+
+    .secleter__cover--ipad-seller {
+        display: none;
+    }
+
+    .brands__five--item {
+        padding: 0;
+    }
+
+    .header-nav {
+        justify-content: space-evenly;
+        margin: 0 8px;
+    }
+
+    .hedaer__use {
+        display: none;
+    }
+
+    .header__basket {
+        display: none;
+    }
+
+    .secleter__app--item {
+        width: 65%;
+        text-align: center;
+        padding: 10px 60px;
+    }
+
+    .container__cooperate--img {
+        width: 200px;
+    }
+
+    .show__room--system-item { 
+        font-size: 2rem;
+    }
+
+    .show__room--system-ten {
+        font-size: 1.4rem;
+        transform: translateX(0);
+    }
+
+    .footer-app {
+        text-align: center;
+    }
+
+    .footer__contact--info::before {
+        left: 35%;
+    }
+
+    .footer__wrold--img {
+        width: 50%;
+        margin: 0 12px;
+    }
+
+    .container__trademark {
+        width: 200px;
+    }
+
+    .container__trademark-item {
+        font-size: 1.4rem;
+    }
+
+    .container__trademark-list {
+        font-size: 1.4rem;
+    }
+
+    .container-prominent--brand {
+        margin: 0 12px 40px 12px;
+    }
+
+    .container__cooperate {
+        margin: 0 20px;
+    }
+
+    .container__cooperate--img {
+        width: 220px;
+    }
+
+    .container__introduce--ipad {
+        overflow: hidden;
+        display: block;
+    }
+
+    .footer__contact--address {
+        font-size: 1.5rem;
+    }
+
+    .header__nav--menu {
+        font-size: 2rem;
+    }
+
+    .header__selective {
+        font-size: 2rem;
+    }
+
+    .header__search {
+        height: 25px;
+    }
+
+    .container__advertisement {
+        margin: 10px 12px;
+    }
+
+    .secleter__evaluate {
+        margin-top: 30px;
+    }
+
+    .collection__product {
+        margin-top: 4rem;
+    }
+
+    .active__box {
+        font-size: 2.2rem;
+        font-weight: 800;
+        padding-top: 20%;
+        background: url('../moments/cooperate/f3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        transition: transform linear 0.5s, opacity linear 0.5s;
+    }
+
+    .container__ultra--boost-filnd {
+        line-height: 3.55rem;
+    }
+
+    .container__ultra--boost-hight {
+        line-height: 2.47rem;
+    }
+
+    .acvive__top {
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+    }
+
+}
